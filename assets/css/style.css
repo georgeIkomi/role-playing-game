@@ -94,6 +94,12 @@ main {
     letter-spacing: 0.03em;
 }
 
+@media(min-width:550px) {
+    .health {
+        margin: 2vh 5%;
+    }
+}
+
 .health strong {
     font-weight: bold;
     color: #fff;
