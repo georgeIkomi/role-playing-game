@@ -20,6 +20,16 @@ main {
     margin-top: .5rem;
 }
 
+@media(min-width:550px) {
+    main {
+        flex-direction:row;
+        margin: 6vh 5vw;
+        justify-content: center;
+        width: 60vw;
+        gap: 2rem;
+    }
+}
+
 .character-card {
     height: 14rem;
     margin-top: .5rem;
@@ -143,4 +153,13 @@ button:hover {
 
 button:focus {
     background: #666;
+}
+
+.end-game {
+    margin-top: 25%;
+    text-align: center;
+}
+
+.end-emoji {
+    font-size: 80px;
 }
