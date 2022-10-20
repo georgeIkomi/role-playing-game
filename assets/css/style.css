@@ -113,3 +113,7 @@ main {
     text-align: center;
     line-height: 6vh;
 }
+
+.dice-container .placeholder-dice {
+    background-color: transparent;
+}
