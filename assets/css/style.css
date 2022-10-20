@@ -67,3 +67,23 @@ main {
     font-weight: bold;
     color: #fff;
 }
+
+.health-bar-outer {
+    background: #111;
+    height: 1vh;
+    width: 90%;
+    margin: 0 5%;
+    border-radius: 2px;
+}
+
+.health-bar-outer
+.health-bar-inner {
+    background: #463;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.health-bar-outer 
+.health-bar-inner.danger {
+    background: #d45;
+}
