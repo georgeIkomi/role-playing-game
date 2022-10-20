@@ -62,3 +62,8 @@ main {
     color: #ccc;
     letter-spacing: 0.03em;
 }
+
+.health strong {
+    font-weight: bold;
+    color: #fff;
+}
