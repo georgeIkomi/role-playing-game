@@ -137,6 +137,16 @@ main {
     justify-content: center;
     align-items: center;
     gap: .5rem;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+@media(min-width:550px) {
+    .dice-container {
+        height: 30%;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
 }
 
 .dice, 
