@@ -52,3 +52,13 @@ main {
     border-radius: 10px;
     background-color: rgba(0, 7, 33, 0.8);
 }
+
+.health {
+    font-size: 1.1rem;
+    font-weight: normal;
+    width: 90%;
+    text-align: left;
+    margin: 1vh 5%;
+    color: #ccc;
+    letter-spacing: 0.03em;
+}
