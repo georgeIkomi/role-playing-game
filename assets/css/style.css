@@ -101,3 +101,15 @@ main {
     align-items: center;
     gap: .5rem;
 }
+
+.dice, 
+.placeholder-dice {
+    height: 5.5vh;
+    width: 5.5vh;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #666;
+    color: #002;
+    text-align: center;
+    line-height: 6vh;
+}
