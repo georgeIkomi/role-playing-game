@@ -36,3 +36,10 @@ main {
     border: 0.2rem solid #000721;
     box-shadow: inset 0 0 6px 2px rgba(100, 100, 100, 0.2), 0 0 10px rgba(117, 182, 214, 0.2);
 }
+
+.name {
+    margin: 1vh 0;
+    width: 100%;
+    letter-spacing: 0.08em;
+    font-size: 90%;
+}
