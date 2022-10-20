@@ -47,6 +47,14 @@ main {
     box-shadow: inset 0 0 6px 2px rgba(100, 100, 100, 0.2), 0 0 10px rgba(117, 182, 214, 0.2);
 }
 
+@media(min-width: 550px) {
+    .character-card {
+        border: 0.2rem solid #002;
+        height: 26rem;
+        width: 37vw;
+    }
+}
+
 .name {
     margin: 1vh 0;
     width: 100%;
