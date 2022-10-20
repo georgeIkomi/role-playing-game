@@ -193,6 +193,12 @@ button {
     box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.4);
 }
 
+@media(min-width:550px) {
+    button {
+        margin-top: 0;
+    }
+}
+
 button:hover {
     background: orangered;
 }
