@@ -46,3 +46,21 @@ function getDicePlaceholderHtml(diceCount) {
         .join("");
 }
 
+/**
+ * Function to calculate the maximum health remaining
+ * for each character. This function facilitates the 
+ * simulation of each character's green health bar
+ * decreasing as the character's health value drops.
+ * The "maximumHealth" argument contains the maximum
+ * amount of health possible for each character to have
+ * as specified in their respective default "maxHealth"
+ * (i.e. the amount of health they start with at the 
+ * beginning of a game) property. The "remainingHealth" 
+ * argument is the amount of health remaining for each 
+ * character as the game unfolds.
+ */
+const getPercentage = (remainingHealth, maximumHealth) =>
+    (remainingHealth / maximumHealth) * 100;
+
+export { getDiceRollArray, getDicePlaceholderHtml, getPercentage }
+
