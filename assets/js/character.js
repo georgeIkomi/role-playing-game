@@ -85,7 +85,7 @@ class Character {
     }
 
     /**
-     * Function returning the HTML template string for creating
+     * Method returning the HTML template string for creating
      * the health bar for the character. The variable "percent"
      * is created and set  It adds the class "danger" 
      * to the div with class "health-bar-inner" if the percentage 
@@ -99,6 +99,33 @@ class Character {
             `<div class="health-bar-outer">
                 <div class="health-bar-inner ${percent < 26 ? "danger" : ""}" 
                     style="width: ${percent}%;">
+                </div>
+            </div>
+            `;
+    }
+
+    /**
+     * This method returns the HTML template string for
+     * the rendering of characters. The created "healthBar"
+     * variable is set to the html string returned by the 
+     * getHealthBarHtml method and adds it to the html template
+     * string returned byt getCharacterHtml method. To easily 
+     * access the properties of the character, Object destructuring
+     * is used to unpack the properties of each character object and
+     * saved to variables with the same name of each property of the
+     * character.  
+     */
+    getCharacterHtml() {
+        const { elementId, name, avatar, health, diceCount, diceHtml} = this;
+        const healthBar = this.getHealthBarHtnl();
+        return 
+            `<div class="character-card">
+                <h4 class="name">${name}</h4>
+                <img class="avatar" src="${avatar}" alt="An avatar image of the Wizard character reciting incantations from his book of magic">
+                <p class="health">health: <strong>${health}</strong></p>
+                ${healthBar}
+                <div class="dice-container">
+                    ${diceHtml}
                 </div>
             </div>
             `;
