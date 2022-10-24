@@ -83,4 +83,24 @@ class Character {
             this.dead = true;
         }
     }
+
+    /**
+     * Function returning the HTML template string for creating
+     * the health bar for the character. The variable "percent"
+     * is created and set  It adds the class "danger" 
+     * to the div with class "health-bar-inner" if the percentage 
+     * health remaining for the character is 25% or less, and sets 
+     * the width of this div to the percentage health remaining for 
+     * the character.
+     */
+    getHealthBarHtnl() {
+        const percent = getPercentage(this.health, this.maxHealth);
+        return
+            `<div class="health-bar-outer">
+                <div class="health-bar-inner ${percent < 26 ? "danger" : ""}" 
+                    style="width: ${percent}%;">
+                </div>
+            </div>
+            `;
+    }
 }
