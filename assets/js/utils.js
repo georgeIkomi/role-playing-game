@@ -20,3 +20,29 @@ function getDiceRollArray(diceCount) {
         .map(() => Math.floor(Math.random() * 6) + 1); 
 }
 
+/**
+ * Function to create placeholders for dice rolls relating
+ * to each character. The purpose of this function is to
+ * mitigate against the app rolling the dice as soon as it
+ * loads or when refreshed. This function will make it so that
+ * the dice themselves only appear when the attack button is 
+ * being clicked. The Array constructor is used to create a new 
+ * array of length specific to the "diceCount" property of each
+ * character. Each array element is assigned an initial static 
+ * value (zero in this case) using the JavaScript in-built 
+ * .fill() method, and then the JavaScript in-built .map() method 
+ * (using a callback function) is used to iterate over the array 
+ * adding the specified HTML template string representing the dice 
+ * placeholder div to each element in the array. This empty div 
+ * has a css class which produces the outline of the blank dice.
+ * The in-built JavaScript .join() method with a separator passed 
+ * in as a parameter is then used to easily create a string from
+ * the resulting array and returned.
+ */
+function getDicePlaceholderHtml(diceCount) {
+    return new Array(diceCount)
+        .fill(0)
+        .map(() => `<div class="placeholder-dice"></div>`)
+        .join("");
+}
+
