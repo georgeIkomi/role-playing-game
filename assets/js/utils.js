@@ -47,9 +47,9 @@ function getDicePlaceholderHtml(diceCount) {
 }
 
 /**
- * Function to calculate the maximum health remaining
- * for each character. This function facilitates the 
- * simulation of each character's green health bar
+ * Function to calculate and return the maximum health 
+ * remaining for each character. This function facilitates 
+ * the simulation of each character's green health bar
  * decreasing as the character's health value drops.
  * The "maximumHealth" argument contains the maximum
  * amount of health possible for each character to have
