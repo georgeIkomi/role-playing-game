@@ -52,7 +52,7 @@ class Character {
 
     /**
      * The objective of this method is to simulate the damage 
-     * inflicted on each character, and this method takes one 
+     * inflicted on the character, and this method takes one 
      * parameter (attackScoreArray) representing the 
      * "currentDiceScore" of the character. The in-built JavaScript 
      * .reduce() method is used to calculate and return the total 
