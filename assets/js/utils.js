@@ -62,5 +62,18 @@ function getDicePlaceholderHtml(diceCount) {
 const getPercentage = (remainingHealth, maximumHealth) =>
     (remainingHealth / maximumHealth) * 100;
 
-export { getDiceRollArray, getDicePlaceholderHtml, getPercentage }
+/**
+ * This function returns an array to replace old monsters
+ * with new monsters as monsters are killed or eliminated.
+ */
+function newMonstersArray() {
+    return ["orc", "demom", "goblin"];
+}
+
+export { 
+    getDiceRollArray, 
+    getDicePlaceholderHtml, 
+    getPercentage, 
+    newMonstersArray 
+};
 
