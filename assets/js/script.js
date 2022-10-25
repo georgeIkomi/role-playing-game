@@ -82,6 +82,7 @@ function attack() {
  * ends and the display of the endMessage to the console.
  */
 function endGame() {
+    isWaiting = true;
     const endMessage = 
         wizard.health === 0 && monster.health === 0
         ? "No victors - all creatures are dead"
