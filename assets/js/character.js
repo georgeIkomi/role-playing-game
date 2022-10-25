@@ -95,8 +95,8 @@ class Character {
      */
     getHealthBarHtnl() {
         const percent = getPercentage(this.health, this.maxHealth);
-        return
-            `<div class="health-bar-outer">
+        return`
+            <div class="health-bar-outer">
                 <div class="health-bar-inner ${percent < 26 ? "danger" : ""}" 
                     style="width: ${percent}%;">
                 </div>
@@ -118,8 +118,8 @@ class Character {
     getCharacterHtml() {
         const { elementId, name, avatar, health, diceCount, diceHtml} = this;
         const healthBar = this.getHealthBarHtnl();
-        return 
-            `<div class="character-card">
+        return `
+            <div class="character-card">
                 <h4 class="name">${name}</h4>
                 <img class="avatar" src="${avatar}" alt="An avatar image of the Wizard character reciting incantations from his book of magic">
                 <p class="health">health: <strong>${health}</strong></p>
