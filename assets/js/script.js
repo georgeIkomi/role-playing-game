@@ -16,7 +16,7 @@ let isWaiting = false;
  */
 function getNewMonster() {
     const nextMonsterData = characterData[monstersArray.shift()];
-    return nextMonsterData ? new Character[nextMonsterData]: {};
+    return nextMonsterData ? new Character(nextMonsterData): {};
 }
 
 /**
