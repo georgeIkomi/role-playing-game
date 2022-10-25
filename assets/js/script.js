@@ -122,3 +122,7 @@ function render() {
     document.getElementById("hero").innerHTML = wizard.getCharacterHtml();
     document.getElementById("monster").innerHTML = monster.getCharacterHtml();
 }
+
+const wizard = new Character(characterData.hero);
+let monster = getNewMonster();
+render();
