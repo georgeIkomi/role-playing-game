@@ -106,3 +106,6 @@ function endGame() {
             })
     }, 2000);
 }
+
+// triggers dice roll when attack button is clicked
+document.getElementById("attack-button").addEventListener(click, attack);
