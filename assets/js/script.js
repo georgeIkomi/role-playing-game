@@ -108,7 +108,7 @@ function endGame() {
 }
 
 // triggers dice roll when attack button is clicked
-document.getElementById("attack-button").addEventListener(click, attack);
+document.getElementById("attack-button").addEventListener("click", attack);
 
 /**
  * This function renders characters simultaneously when called
