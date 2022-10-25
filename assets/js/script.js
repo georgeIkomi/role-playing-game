@@ -75,11 +75,11 @@ function attack() {
  * the user with the option to play again if they so wish.
  * When the "Play Again?" button is clicked by the user, the
  * page re-loads and the game resumes. To improve the UX, the
- *  in-built JavaScript setTimeout function is used to simulate 
+ * in-built JavaScript setTimeout function is used to simulate 
  * a two second delay between the last monster or wizard dying 
  * and the endMessage being displayed, and the "isWaiting" 
  * variable is used to disable a dice roll between when the game
- *  ends and the display of the endMessage to the console.
+ * ends and the display of the endMessage to the console.
  */
 function endGame() {
     const endMessage = 
@@ -109,3 +109,16 @@ function endGame() {
 
 // triggers dice roll when attack button is clicked
 document.getElementById("attack-button").addEventListener(click, attack);
+
+/**
+ * This function renders characters simultaneously when called
+ * as the game continues. The element representing each character 
+ * is accessed via the document node and the innerHTML attribute 
+ * for each is set to the html template string returned by the 
+ * "getCharacterHtml" method and rendered to the page when this
+ * function is called.
+ */
+function render() {
+    document.getElementById("hero").innerHTML = wizard.getCharacterHtml();
+    document.getElementById("monster").innerHTML = monster.getCharacterHtml();
+}
