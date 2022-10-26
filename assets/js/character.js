@@ -93,7 +93,7 @@ class Character {
      * the width of this div to the percentage health remaining for 
      * the character.
      */
-    getHealthBarHtnl() {
+    getHealthBarHtml() {
         const percent = getPercentage(this.health, this.maxHealth);
         return`
             <div class="health-bar-outer">
@@ -117,7 +117,7 @@ class Character {
      */
     getCharacterHtml() {
         const { elementId, name, avatar, health, diceCount, diceHtml} = this;
-        const healthBar = this.getHealthBarHtnl();
+        const healthBar = this.getHealthBarHtml();
         return `
             <div class="character-card">
                 <h4 class="name">${name}</h4>
