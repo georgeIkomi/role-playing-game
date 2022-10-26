@@ -204,7 +204,7 @@ button:hover {
 }
 
 button:focus {
-    background: #666;
+    outline: 0;
 }
 
 .end-game {

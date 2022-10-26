@@ -56,7 +56,7 @@ function attack() {
                     monster = getNewMonster();
                     render();
                     isWaiting = false;
-                }, 2000);
+                }, 2000)
             } else {
                 endGame();
             }
