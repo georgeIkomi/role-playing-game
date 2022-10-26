@@ -6,3 +6,5 @@ good and the other evil.
 
 The site will be targeted towards game enthusiasts who regularly play computer
 games or love participating in a role-playing game.
+
+![](/assets/images/role-playing-game_screenshot1.png)
