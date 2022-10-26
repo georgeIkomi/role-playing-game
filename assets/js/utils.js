@@ -67,7 +67,7 @@ const getPercentage = (remainingHealth, maximumHealth) =>
  * with new monsters as monsters are killed or eliminated.
  */
 function newMonstersArray() {
-    return ["orc", "demom", "goblin"];
+    return ["orc", "demon", "goblin"];
 }
 
 export { 
