@@ -54,3 +54,5 @@ games or love participating in a role-playing game.
 
   - This will enable the user to see the dice roll of each character giving them a visual
     perspective as to what is going as the game unfolds.
+
+![](/assets/images/role-playing-game_Screenshot4.png)
