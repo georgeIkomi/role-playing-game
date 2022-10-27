@@ -67,4 +67,4 @@ games or love participating in a role-playing game.
     score and the resulting effect on the health or power level of the characters. This is
     beneficial as this aspect of the game is not abstracted away from the user.
 
-![](/assets/images/role-playing-game_Screenshot4.png)
+![](/assets/images/role-playing-game_Screenshot5.png)
