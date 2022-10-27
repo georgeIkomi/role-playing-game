@@ -80,3 +80,5 @@ games or love participating in a role-playing game.
 
   - This part of the gaame not only indicates the end of the game to the user, but also 
     gives information to the user as to which character has won or whether all characters are dead, and provides the user with the opportunity to have another go if they so which through the "Play Again?" button. 
+
+![](/assets/images/role-playing-game_Screenshot8.png)
