@@ -24,6 +24,8 @@ games or love participating in a role-playing game.
   - This is particularly useful to the user as all the information relating to
     each character can be easily gleaned in one place.
 
+![](/assets/images/role-playing-game_Screenshot7.png)
+
 * Health Indicator
 
   - The health indicator show the strength or power level that each character begins
