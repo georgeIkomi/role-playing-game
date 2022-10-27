@@ -44,3 +44,13 @@ games or love participating in a role-playing game.
     green to red when the state of the character's power level is critical.
 
 ![](/assets/images/role-playing-game_Screenshot3.png)
+
+* Dice Area
+
+  - Characters will have between one and three dice and for every click of the attack
+    button, a random number between one and six will be generated for each dice. Damage
+    is inflicted on a character when the sum of the dice roll for the opposing character
+    is subtracted form the character's health or power value.
+
+  - This will enable the user to see the dice roll of each character giving them a visual
+    perspective as to what is going as the game unfolds.
