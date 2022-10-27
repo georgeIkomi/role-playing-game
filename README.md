@@ -56,3 +56,15 @@ games or love participating in a role-playing game.
     perspective as to what is going as the game unfolds.
 
 ![](/assets/images/role-playing-game_Screenshot4.png)
+
+* Attack Button
+
+  - The attack button is essentially what initiates commencement of the game. Each click
+    of this button by the user causes a dice roll for each character and simulates the
+    attack of one character on the other, and vice-versa.
+
+  - On each click, the user will simultaneously be able to seethe change in the dice roll
+    score and the resulting effect on the health or power level of the characters. This is
+    beneficial as this aspect of the game is not abstracted away from the user.
+
+![](/assets/images/role-playing-game_Screenshot4.png)
