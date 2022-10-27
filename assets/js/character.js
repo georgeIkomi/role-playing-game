@@ -117,7 +117,7 @@ class Character {
      * character.  
      */
     getCharacterHtml() {
-        const { elementId, name, avatar, health, diceCount, diceHtml} = this;
+        const { name, avatar, health, diceHtml} = this;
         const healthBar = this.getHealthBarHtml();
         return `
             <div class="character-card">
