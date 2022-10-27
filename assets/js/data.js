@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 /* extracting character data for 
    characters & storing them in a single
    object.
