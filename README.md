@@ -72,3 +72,11 @@ games or love participating in a role-playing game.
     beneficial as this aspect of the game is not abstracted away from the user.
 
 ![](/assets/images/role-playing-game_Screenshot5.png)
+
+* Game Over (including Play Again? Button)
+
+  - This is what is displayed to the user when the game ends (i.e. when either character
+    is dead or both characters are dead).
+
+  - This part of the gaame not only indicates the end of the game to the user, but also 
+    gives information to the user as to which character has won or whether all characters are dead, and provides the user with the opportunity to have another go if they so which through the "Play Again?" button. 
