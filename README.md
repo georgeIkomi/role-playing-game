@@ -9,6 +9,8 @@ games or love participating in a role-playing game.
 
 ![](/assets/images/role-playing-game_screenshot1.png)
 
+![](/assets/images/role-playing-game_screenshot6.png)
+
 # Features
 
 ## Existing Features
