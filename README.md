@@ -13,7 +13,7 @@ games or love participating in a role-playing game.
 
 ## Existing Features
 
-    - Character Cards
+    * Character Cards
 
         - The character cards hold all the information relating to each character:
           name, avatar image, health, health bar, number of dice alloted, and current
@@ -22,7 +22,7 @@ games or love participating in a role-playing game.
         - This is particularly useful to the user as all the information relating to
           each character can be easily gleaned in one place.
 
-    - Health Indicator
+    * Health Indicator
 
         - The health indicator show the strength or power level that each character begins
           with at the start of the game.
@@ -33,7 +33,7 @@ games or love participating in a role-playing game.
 
     ![](/assets/images/role-playing-game_Screenshot2.png)
 
-    - Health Bar
+    * Health Bar
 
         - The purpose of the health bar is similar to that of the health indicator in that
           it gives an added visual awareness to the user of the state of each character's
