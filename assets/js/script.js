@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 import characterData from "./data.js";
 import Character from "./character.js";
 import { newMonstersArray } from "./utils.js";
