@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 /**
  * Function to dynamically create random dice values to simulate
  * rolling the dice and will take the "diceCount" property for each
