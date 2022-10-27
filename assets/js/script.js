@@ -57,7 +57,7 @@ function attack() {
                     monster = getNewMonster();
                     render();
                     isWaiting = false;
-                }, 2000)
+                }, 2000);
             } else {
                 endGame();
             }
@@ -85,11 +85,9 @@ function attack() {
 function endGame() {
     isWaiting = true;
     const endMessage = 
-        wizard.health === 0 && monster.health === 0
-        ? "No victors - all creatures are dead"
-        : wizard.health > 0
-        ? "The Wizard Wins"
-        : "The monsters are Victorious";
+        wizard.health === 0 && monster.health === 0 ? 
+        "No victors - all creatures are dead": wizard.health > 0 ? 
+        "The Wizard Wins": "The monsters are Victorious";
 
     const endGameEmoji = wizard.health > 0 ? "🔮": "☠️";
     setTimeout(() => {
@@ -105,7 +103,7 @@ function endGame() {
         document.getElementById("play-again-button")
         .addEventListener("click", () => {
                 location.reload();
-            })
+            });
     }, 2000);
 }
 
