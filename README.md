@@ -168,6 +168,19 @@ games or love participating in a role-playing game.
 
     To test this functionality at a very early stage, a log statement (console.log(this.dead)) displaying this Boolean is logged to the console in Chrome Dev Tools when the character's health indicator reaches zero. When the "attack" button is then clicked and a character's health indicator reaches zero the Boolean true is logged to the console confirming it works. The console.log statement was removed after testing.
 
+
+# Unfixed Bugs
+
+  There were some issues discovered with how the site looks on different mobile devices. Generally, the site looks good on different browsers and displays well on the iPhone 10 Max and certain versions of the iPad and iPhone alike. It displays well with no discernable issues on desktops and laptops. 
+
+  Even though my iPad is old, it displays and runs as it should with no problems. Having said that, testing the site for responsiveness in Chrome Dev Tools did highlight this particular issue on some of the not-so-standard devices listed.
+
+  The main issue being that on some of these mobile devices the health bar seems to be obscurred somewhat or not appearing at all. This is something minor and could be fixed if time permits. Overall, the site is generally responsive on most standard devices but could be much better in that regard.
+
+  I will admit that resolving these issues will require some tinkering and further research on my part. It is displaying and running well on most of the standard devices. Additionally media queries were added to the CSS file in an attempt to resolve the issue. This brought about some improvements but some very minor issues linger. 
+
+  
+
 # Validator Testing
 
   * HTML
