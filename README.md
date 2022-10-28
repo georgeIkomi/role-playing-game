@@ -219,6 +219,27 @@ games or love participating in a role-playing game.
 
   The live link can be found here - <https://georgeikomi.github.io/role-playing-game/>
 
+# Credits
+
+  * Character images were taken from <https://www.shutterstock.com/search/role-playing-game> 
+
+  * Instructions on how to refresh a page in JavaScript was taken from [freeCodeCamp-Tutorial](https://www.freecodecamp.org/news/refresh-the-page-in-javascript-js-reload-window-tutorial/#:~:text=You%20can%20use%20the%20location,method%20responsible%20for%20page%20reloading.)
+
+  * Instructions on how to organise code using the import statement was taken from
+    [MDN-documentation(import)](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/import)
+
+  * Instructions on how to organise code using the export statement was taken from 
+    [MDN-documentation(export)](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export)
+
+  * Instructions on how to overcome JSHint warning on using const was taken from 
+    [stackoverflow()](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const)
+
+  * Further instructions on how to access and update markup in the DOM was taken from
+    JAVASCRIPT & JQUERY (interactive front-end web development) Chapter 5: Document Object Model, pg184-227, by John Duckett.
+
+  * Further instructions on how to write functions and methods was taken from 
+    JAVASCRIPT & JQUERY (interactive front-end web developmen) Chapter 2: Basic JavaScript Instructions, pg53-81 & Chapter 3: Functions, Methods & Objects, pg86-130, by John Duckett. 
+
   
   
   
