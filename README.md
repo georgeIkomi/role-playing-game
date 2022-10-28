@@ -240,6 +240,9 @@ games or love participating in a role-playing game.
   * Further instructions on how to write functions and methods was taken from 
     JAVASCRIPT & JQUERY (interactive front-end web developmen) Chapter 2: Basic JavaScript Instructions, pg53-81 & Chapter 3: Functions, Methods & Objects, pg86-130, by John Duckett. 
 
+  * Instructions on how to add favicon to the page title was taken from 
+    [Favicon](https://favicon.io/favicon-converter/)
+
 # Instructions on How To Play
 
   * At any given time there are two characters on the screen, one good and the other evil.
