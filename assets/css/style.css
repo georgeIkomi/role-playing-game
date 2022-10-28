@@ -199,10 +199,6 @@ button {
     }
 }
 
-button:hover {
-    background: orangered;
-}
-
 button:focus {
     outline: 0;
 }
@@ -214,4 +210,29 @@ button:focus {
 
 .end-emoji {
     font-size: 80px;
+}
+
+@media(min-width:280px) and (max-width:480px) {
+    .character-card {
+        height: 18rem;
+    }
+    .name {
+        margin: 0.2vh 0 0.5vh;
+    }
+    .dice,
+    .placeholder-dice {
+        height: 5.1vh;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .character-card {
+        height: 35rem;
+    }
+}
+
+@media(min-width:1025px) and (max-width:1200) {
+    .character-card {
+        height: 45rem;
+    }
 }
