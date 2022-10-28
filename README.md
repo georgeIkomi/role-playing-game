@@ -240,6 +240,26 @@ games or love participating in a role-playing game.
   * Further instructions on how to write functions and methods was taken from 
     JAVASCRIPT & JQUERY (interactive front-end web developmen) Chapter 2: Basic JavaScript Instructions, pg53-81 & Chapter 3: Functions, Methods & Objects, pg86-130, by John Duckett. 
 
+# Instructions on How To Play
+
+  * At any given time there are two characters on the screen, one good and the other evil.
+    - To begin click the "attack" button.
+    - The characters roll their dice and their attack score is deducted from their  
+      opponent's health.
+    - Each time the "attack" button is clicked, each character's health value is reduced 
+      by the total dice roll score of their opponent.
+    - As this process continues, the damage inflicted on the characters causes their 
+      green health bar to decrease with the colour changing to red indicating that the character's health is at a critical point due to the damage inflicted by the opposing character.
+    - As the "attack" button is clicked this process continues until an evil character 
+      dies, at which point a second monster character takes its place and continues to do battle with the Wizard.
+    - Continue to click the attack button until all monster characters are dead or the 
+      Wizard is itself is killed.
+    - At this point the game ends with a screen indicating which of the characters has
+      won. The user will also be presented with the opportunity to play again should they wish to by clicking on the "Play Again?" button, or they can just exit by closing the page. 
+
+  
+    
+
   
   
   
